@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Avenir;
+    font-size: 88px;
+    font-weight: 800;
+    line-height: 104px;
+    text-align: left;
+    width: 531px;
+    height: 208px;
+    top: 64px;
+    left: 64px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
